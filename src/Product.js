@@ -3,6 +3,7 @@ function Product(data) {
     <div className="Vishal">
       <img
         src={data.photo}
+        alt={data.title}
       />
       <div className="text-gray-500 text-xs">{data.category}</div>
       <div className="text-2xl">{data.title}</div>

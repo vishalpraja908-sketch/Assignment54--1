@@ -42,10 +42,7 @@ function App() {
   );
 }
 
-const xyz = {
-  title:"Cofee Mug",
-  category:"mugs"
-}
+
 
 export default App;
 
