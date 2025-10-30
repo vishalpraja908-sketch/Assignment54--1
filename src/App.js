@@ -3,6 +3,8 @@ import Navbar from './Navbar';
 import Select from  './Select';
 import Button from './Button';
 import Footer from './Footer';
+import Productdetail from './Productdetail';
+
 
 function App() {
   return (
@@ -30,15 +32,20 @@ function App() {
       </div>
     </div>
   </div>
-  <footer>
+  
   <div className="flex flex-col ">
       <div className="flex-grow ">
-       
-      </div>
-      <Footer />
     </div>
-    </footer>
-    </div>
+    <Footer />   
+    
+  </div>
+      
+    
+    <button></button>
+      <Productdetail />
+  </div>
+
+   
   );
 }
 
